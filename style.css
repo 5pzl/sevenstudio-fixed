@@ -1,0 +1,92 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(145deg, #001f1e, #032c2b);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background: #0f2f2e;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 255, 200, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #fdfd96;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  outline: none;
+  background: #022524;
+  color: #fff;
+  font-size: 14px;
+}
+
+main .menu {
+  list-style: none;
+}
+
+main .menu li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  background: #022524;
+  border-radius: 5px;
+}
+
+main .menu li .icon {
+  font-size: 20px;
+}
+
+main .menu li .text {
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+main .menu li .action {
+  color: #fdfd96;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+footer .social-icons a {
+  margin: 0 10px;
+}
+
+footer .social-icons img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+}
