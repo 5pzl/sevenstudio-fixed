@@ -1,13 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SevenStudio UI</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SevenStudio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>SevenStudio</h1>
+      <div class="search-bar">
+        <input type="text" placeholder="Search for Prompts, Newsletter, ...">
+      </div>
+    </header>
+    <main>
+      <ul class="menu">
+        <li>
+          <span class="icon">💡</span>
+          <span class="text">Prompts</span>
+          <a href="#" class="action">Download</a>
+        </li>
+        <li>
+          <span class="icon">🎨</span>
+          <span class="text">Graphics Packs</span>
+          <a href="#" class="action">Download</a>
+        </li>
+        <li>
+          <span class="icon">🎥</span>
+          <span class="text">Tutorial</span>
+          <a href="#" class="action">Watch</a>
+        </li>
+        <li>
+          <span class="icon">❤️</span>
+          <span class="text">Support</span>
+          <a href="#" class="action">Donate</a>
+        </li>
+        <li>
+          <span class="icon">✉️</span>
+          <span class="text">Newsletter</span>
+          <a href="#" class="action">Subscribe</a>
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <div class="social-icons">
+        <a href="#"><img src="instagram.svg" alt="Instagram"></a>
+        <a href="#"><img src="close.svg" alt="Close"></a>
+        <a href="#"><img src="email.svg" alt="Email"></a>
+        <a href="#"><img src="tiktok.svg" alt="TikTok"></a>
+      </div>
+    </footer>
+  </div>
+</body>
 </html>
