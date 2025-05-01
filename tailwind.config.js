@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"], // Ensure Tailwind scans your files
+  content: ["./src/**/*.{js,jsx,ts,tsx}"], // Scans your files for Tailwind classes
   theme: {
     extend: {
       colors: {
